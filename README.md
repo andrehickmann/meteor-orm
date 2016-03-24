@@ -32,3 +32,4 @@ Of course the package is very simple at the moment, there are plenty things to
 do:
 
 * writing tests :)
+* writing documentation :)
