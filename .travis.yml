@@ -1,3 +1,9 @@
 language: node_js
 node_js:
-  - "5.6.x"
+  - "0.10"
+before_install:
+  - "curl -L http://git.io/3l-rRA | /bin/sh"
+services:
+  - mongodb
+env:
+  - LAIKA_OPTIONS="-t 5000"
